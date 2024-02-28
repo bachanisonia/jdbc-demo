@@ -1,0 +1,49 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.learnjava.springframework</groupId>
+  <artifactId>jdbc-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>JDBC Demo</name>
+  
+   	<dependencies>
+		  
+		    		
+  		<dependency>
+   			<groupId>org.springframework</groupId>
+   			<artifactId>spring-context</artifactId>
+   			<version>3.1.2.RELEASE</version>
+  		</dependency>
+		  
+  		<dependency>
+   			<groupId>org.springframework</groupId>
+   			<artifactId>spring-beans</artifactId>
+   			<version>3.1.2.RELEASE</version>
+  		</dependency>
+
+		<dependency>
+    		<groupId>javax.annotation</groupId>
+    		<artifactId>javax.annotation-api</artifactId>
+    		<version>1.2</version>
+		</dependency>
+  		
+  		<dependency>
+    		<groupId>org.apache.derby</groupId>
+    		<artifactId>derbyclient</artifactId>
+    		<version>10.15.2.0</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.apache.derby</groupId>
+    		<artifactId>derby</artifactId>
+    		<version>10.15.2.0</version>
+		</dependency>
+		
+		 <dependency>
+   			<groupId>org.springframework</groupId>
+   			<artifactId>spring-jdbc</artifactId>
+   			<version>3.1.2.RELEASE</version>
+  		</dependency>
+  		
+  	</dependencies>
+  	
+</project>
